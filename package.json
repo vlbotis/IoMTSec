@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "claude": "^0.0.1",
+    "fastapi": "^0.0.8",
+    "string": "^3.3.3",
+    "uglify-js": "^3.19.3"
+  }
+}

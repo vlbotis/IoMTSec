@@ -1,0 +1,48 @@
+{
+    "timestamp": "20250410_230700",
+    "batch_size": 50000,
+    "max_per_class": 5000,
+    "n_jobs": 7,
+    "feature_selection": true,
+    "selected_features": [
+        "Header_Length",
+        "Protocol Type",
+        "Duration",
+        "Rate",
+        "Srate",
+        "syn_flag_number",
+        "rst_flag_number",
+        "psh_flag_number",
+        "ack_flag_number",
+        "syn_count",
+        "fin_count",
+        "rst_count",
+        "HTTPS",
+        "TCP",
+        "UDP",
+        "ICMP",
+        "Tot sum",
+        "Min",
+        "Max",
+        "AVG",
+        "Std",
+        "Tot size",
+        "IAT",
+        "Number",
+        "Magnitue",
+        "Radius",
+        "Covariance",
+        "Variance",
+        "Weight"
+    ],
+    "feature_count": 29,
+    "models_trained": [
+        "lightgbm",
+        "sgd_classifier",
+        "hist_gradient_boosting"
+    ],
+    "system_info": {
+        "cpu_count": 8,
+        "platform": "nt"
+    }
+}
